@@ -1,0 +1,277 @@
+.about{
+    background-color: white;
+    width: 90vw;
+    margin: 0 auto;
+    height:100vh;
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.about .pic{
+    flex:1;
+}
+.about .pic img{
+    width: 90%;
+}
+.about .story{
+    flex:1;
+    font-family: "Poppins";
+    font-size: .8rem;
+    color: #333;
+    text-indent: 2rem;
+}
+.about .story h1{
+    flex:1;
+    font-family: "skranji";
+    font-size: 3rem;
+    text-align: center;
+    color: #fa017a;
+}
+.education{
+    width: 100vw;
+}
+.skills{
+    width: 90vw;
+    margin: 0 auto;
+    font-family: "poppins";
+    font-size: .9rem;
+
+}
+.skills h1{
+    text-align: center;
+    color: #fa017a;
+    font-family: "skranji";
+}
+.skills .content{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(30vw,1fr));
+    gap: 1rem;
+}
+.animation{
+    width: 10vw;
+}
+/* Base styles for the footer */
+.footer {
+    width: 100%;
+    height: 30vh;
+    margin: 0 auto;
+    background-image: radial-gradient(#64425b,#252b3b); /* Purple color */
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content:center; 
+    align-items: center;
+    flex-wrap: wrap; 
+}
+
+.social-links {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.social-links a {
+    display: flex;
+    color: #fff;
+    font-size: 24px;
+    width:10vw;
+    text-decoration: none;
+}
+
+/* Copyright text styles */
+.copyright {
+    font-size: 18px;
+    color: white;
+}
+.contactform {
+    width: 90vw;
+    max-width: 800px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+  }
+  
+  .contactform .animation{
+    flex: 1;
+    width: 50vw;
+  }
+  .contactform .animation img{
+    width: 70%;
+  }
+  .contactform h3{
+    font-family: "baumans";
+    font-size: 1.5rem;
+    color: #fa017a;
+  }.contactform h3 span{
+    color: #fa017a;
+  }
+  .contactform form {
+    flex: 1;
+    width: 100%; 
+    display: flex;
+    flex-direction: column;}
+  .content{
+    width: 90vw;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  }
+  h1 {
+    font-size: 24px;
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  label {
+    display: block;
+    font-family: "Poppins";
+    margin-bottom: 8px;
+    font-weight: 500;
+    color: #fa017a;
+  }
+  
+  input,
+  textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: none;
+    font-family: "Poppins";
+    border-bottom: 2px solid #333;
+    background-color: transparent;
+    color: #333;
+  }
+  
+  input[type="submit"] {
+    background-color: #fa017a;
+    font-family: "Poppins";
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  input[type="submit"]:hover {
+    background-color: #00faf8;
+  }
+  
+  /* Responsive design */
+  @media (max-width: 768px) {
+    .about{
+      background-color: white;
+      width: 100vw;
+      margin: 0 auto;
+      height:100vh;
+      padding: 0px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+  }
+  .about .pic{
+      flex:1;
+  }
+  .about .pic img{
+      width: 100%;
+  }
+  .about .story{
+      flex:1;
+      font-family: "Poppins";
+      font-size: .8rem;
+      padding: 20px;
+      color: #333;
+      text-indent: 2rem;
+  }
+  .about .story h1{
+      flex:1;
+      font-family: "skranji";
+      font-size: 3rem;
+      text-align: center;
+      color: #fa017a;
+  }
+  .education{
+      width: 100vw;
+  }
+  .skills{
+      width: 90vw;
+      margin: 0 auto;
+      font-family: "poppins";
+      font-size: .9rem;
+  
+  }
+  .skills h1{
+      text-align: center;
+      color: #fa017a;
+      font-family: "skranji";
+  }
+  .skills .content{
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(80%,1fr));
+      gap: 1rem;
+  }
+
+  .animation{
+      width: 50vw;
+  }
+    .contactform {
+        width: 90vw;
+        max-width: 400px;
+        margin: 0 auto;
+    }
+  
+    input,
+    textarea {
+        font-size: 16px; 
+    }
+  
+    input[type="submit"] {
+        font-size: 18px; 
+    }
+    .content{
+      width: 90vw;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+    }
+  }
+  
+/* Responsive design */
+@media (max-width: 768px) {
+    .footer {
+        width: 100vw;
+        height: 20vh;
+        margin: 0 auto;
+        background-color: #000033;
+    }
+    .container {
+        flex-direction: column; /* Stack social links and copyright vertically on mobile */
+    }
+    .social-links a {
+        display: flex;
+        color: #fff;
+        font-size: 24px;
+        width:20vw;
+        text-decoration: none;
+    }
+    .social-links {
+        flex-direction: row; /* Display social links in a row on small screens */
+        justify-content: center; /* Center social links horizontally */
+        gap: 10px;
+    }
+
+    .copyright {
+        font-size: 16px; /* Adjust font size for smaller screens */
+    }
+}

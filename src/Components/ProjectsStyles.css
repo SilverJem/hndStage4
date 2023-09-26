@@ -1,0 +1,72 @@
+.choose{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 95vw;
+    margin: 10vh auto;
+    gap: 10vh;
+  }
+  .choose h2{
+    text-align: center;
+    font-family:"Baumans";
+    color: #fa017a;
+    font-size: 2rem;
+    text-align: center;
+  }
+  .choose h2 span{
+    color:#3399ff;
+  }
+  .choose .cards{
+    width: 90vw;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(40vw,1fr));
+    gap: 1rem;
+  }
+  .choose .cards .card {
+    width: 40vw;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem 1rem;
+  }
+  .choose .cards .card h3{
+    color:#fa017a;
+    font-family: "poppins";
+  
+  }
+  .choose .cards .card p a{
+    font-family: "poppins";
+    color: #333;
+  }
+  .choose .cards .card img{
+    width: 100%;
+  }
+@media (max-width: 750px) {
+    .choose{
+        gap: 5vh;
+      }
+  .choose h2{
+    font-size: 1.7rem;
+    text-align: center;
+  }
+  .choose .cards{
+
+    grid-template-columns: repeat(auto-fit, minmax(90vw,1fr));
+  }
+  .choose .cards .card {
+    width: 90vw;
+  }
+  .choose .cards .card h3{
+    text-align: center;
+  
+  }
+  .choose .cards .card p{
+    text-align: center;
+  }
+  .choose .cards .card img{
+    width: 100%;
+  } 
+}
